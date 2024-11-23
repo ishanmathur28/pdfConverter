@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: your-service-name
-    runtime: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn app:app"  # Replace 'app:app' with your Flask app entry point
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.9.17
